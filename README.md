@@ -2,21 +2,22 @@
 
 A simple wrapper for the [Source RCON Protocol](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol)
 
-### Installation
+## Installation
 
 ```shell script
 yarn add source-rcon-lib
 ```
 
-### Usage
+## Usage
 This library is promise-based.
 
-##### Examples
+#### Examples
 
 Establishing a connection:
 ```js
 const {connect} = require('source-rcon-lib');
 
+// these values are default
 connect('127.0.0.1', '27020', '')
   .then(() => console.log('connected'))
   .catch(err => console.error(err));
@@ -40,7 +41,7 @@ disconnect()
   .catch(err => console.error(err));
 ```
 
-##### API
+#### API
 | Function | Arguments | Returns |
 | -------- | -------- | ------- |
 | connect | url _(string)_, port _(string)_, password _(string)_ | Promise |
@@ -48,6 +49,6 @@ disconnect()
 | disconnect | _none_ | Promise |
 
 
-### Upcoming
+## Upcoming
 
 - tests
