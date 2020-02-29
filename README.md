@@ -1,6 +1,6 @@
 # Source RCON library
 
-A simple wrapper for the [Source RCON Protocol](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol)
+A simple [Node.js](https://nodejs.org/en/) library for the [Source RCON Protocol](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol)
 
 ## Installation
 
@@ -9,7 +9,7 @@ yarn add source-rcon-lib
 ```
 
 ## Usage
-This library is promise-based.
+This is a promise-based library.
 
 #### Examples
 

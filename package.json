@@ -6,6 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "rcon",
+    "source",
+    "protocol",
+    "srcds",
+    "remote console",
+    "valve",
+    "steam"
+  ],
   "author": "Nick Brandt",
   "license": "ISC",
   "repository": {
